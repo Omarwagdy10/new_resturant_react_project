@@ -1,0 +1,78 @@
+@media ( width <= 950px ){
+.Header h1{
+    font-size: 18px;
+}
+
+.HeaderIcons{
+    display: none;
+
+}
+
+/* ========================================== */
+
+.carusel_data h2{
+    font-size: 32px;
+}
+.carusel_data p {
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+}
+
+.primary-btn{
+    padding: 7px 14px;
+    font-size: 15px;
+}
+/* ========================================== */
+.Sec2_container{
+    justify-content: center;
+}
+.Sec2_card{
+    width: 70%;
+}
+
+/* ============================================ */
+.Card{
+    width: 45%;
+}
+
+.Card_Img img{
+    width: 190px ;
+    height: 190px;
+
+}
+
+/* ================================================ */
+.leftSide img{
+    width: 70%;
+}
+
+.rightSide p ,.Sec4_btn {
+    font-size: 15px;
+}
+.rightSide p {
+    margin: 15px 0px;
+}
+
+/* ============================================== */
+.carusle_info p {
+    font-size: 14px;
+}
+
+.carusle_info h4 , .carusle_info h5{
+    font-size: 16px;
+}
+
+.carusel_image{
+    width: 75px;
+    height: 75px;
+
+}
+
+/* ================================================== */
+
+.Contact_US , .Feane , .Opining{
+    width: calc(100% / 2);
+}
+
+}

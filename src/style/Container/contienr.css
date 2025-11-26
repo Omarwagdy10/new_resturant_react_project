@@ -1,0 +1,9 @@
+.page_container{
+    height: 100vh;
+    background-image: url('https://themewagon.github.io/feane/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+
+}

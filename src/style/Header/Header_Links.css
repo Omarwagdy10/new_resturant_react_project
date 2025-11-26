@@ -1,0 +1,19 @@
+.HeaderLinks{
+    flex: 1;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 15px;
+
+}
+
+.HeaderLinks a{
+    text-decoration: none;
+    font-weight: 500;
+    transition: .4s ease;
+    color: white;
+}
+.HeaderLinks a:hover{
+    color: #FFBE2C ;
+}

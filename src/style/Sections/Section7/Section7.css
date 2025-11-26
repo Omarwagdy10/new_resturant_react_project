@@ -1,0 +1,72 @@
+.Section7{
+    background-color: #222831;
+    color: white;
+    padding: 50px ;
+
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+.container1 h4{
+    font-family: cursive;
+    margin: 10px 0px;
+
+}
+.contact_icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact_icon *{
+    margin-bottom: 0 !important;
+}
+
+
+
+.Feane_icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.Feane_icons div{
+    border: solid ;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+}
+.Contact_icon_container{
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Feane_icons{
+    display: flex;
+    justify-content: center;
+}
+
+.Contact_US , .Feane , .Opining{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.container2{
+    text-align: center;
+    margin-top: 30px ;
+}
+
+.container2 p {
+    margin: 0 !important;
+    padding: 10px;
+
+}

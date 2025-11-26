@@ -1,0 +1,26 @@
+.Section6{
+    margin: 40px 0px;
+}
+
+.carusel_data2{
+    padding: 10px;
+}
+.carusle_info{
+    border: solid ;
+    padding: 15px;
+    margin: 10px 0px;
+   background-color: #222831;
+   color: white;
+   border-radius: 10px;
+}
+
+.carusel_image{
+    border: solid  #FFBE33  5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.carusel_image img{
+    width: 100%;
+}

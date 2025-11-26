@@ -1,0 +1,17 @@
+.Header *{
+    margin: 0;
+}
+.Header{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: white;
+
+}
+.Header h1{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+

@@ -1,0 +1,26 @@
+.carusle {
+  height: 70vh;
+}
+.carusel_data {
+  /* padding: 0px 70px; */
+  display: flex !important ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carusel_data h2{
+    font-size: 40px;
+}
+.carusel_data p {
+    font-size: 20px;
+    width: 60%;
+}
+
+.primary-btn{
+    padding: 7px 20px;
+    font-weight: 600;
+}
+

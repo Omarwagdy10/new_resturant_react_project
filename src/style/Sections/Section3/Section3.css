@@ -1,0 +1,33 @@
+.Section3_container{
+    text-align: center;
+    font-family: cursive;
+    padding:20px 0px;
+
+}
+.menu_navbar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu_navbar p{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.active{
+    border: solid ;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #222831;    
+}
+
+.sec3_btn{
+    margin: 20px 0px;
+    padding: 10px  20px;
+}

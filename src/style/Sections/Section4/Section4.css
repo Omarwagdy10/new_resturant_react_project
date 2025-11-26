@@ -1,0 +1,33 @@
+.Section4{
+    font-family: cursive;
+    background-color: #222831;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+
+.leftSide{
+    width: 40%;
+    text-align: end;
+}
+
+.leftSide img{
+    width: 70%;
+}
+
+.rightSide{
+    color: #FDFDFD;
+    width: 40%;
+}
+
+.rightSide p {
+    margin: 25px 0px;
+}
+
+.Sec4_btn{
+    font-size: 20px;
+}

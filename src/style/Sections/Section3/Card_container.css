@@ -1,0 +1,74 @@
+.Card_container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    row-gap: 20px ;
+}
+
+.Card{
+    width: 30%;
+    background-color: #222831;
+    color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    opacity: 0;
+    transform: scale(0.97);
+    animation: fadeIn 0.4s ease  forwards;
+    
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.Card_Img{
+    background-color: #F1F2F3;
+    border-bottom-left-radius: 50px;
+    padding: 20px;
+}
+
+.Card_Img img{
+    width: 150px ;
+    height: 150px;
+    object-fit: contain;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.Card_Img img:hover{
+    transform: scale(1.2);
+}
+
+.Card_Data{
+    text-align: start;
+    padding:  32px ;
+}
+.Card_Data h3{
+    font-size: 24px;
+}
+
+.Card_Data> p{
+    font-size: 13px;
+}
+
+.Card_Price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Card_Price p {
+    margin: 0;
+}
+
+.icon_container{
+    padding: 10px;
+    background-color: #FFBE33;
+    border-radius: 50%;
+
+} 
+
