@@ -19,15 +19,15 @@
     border-radius: 10px;
 }
 .card_img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: solid #FFBE33 7px;
     overflow: hidden;
 }
 .card_img img{
-    object-fit: contain;
-    width: 100%;
+    object-fit: cover;
+    width: 100% ;
     transition: .5s ;
 }
 

@@ -40,6 +40,10 @@
 .Sec2_card{
     width: 90%;
 }
+.card_img {
+    width: 100px;
+    height: 100px;
+}
 
 /* ============================================ */
 .Card{
@@ -56,14 +60,14 @@
 
 
 .leftSide img{
-    width: 80%;
+    width: 100%;
 }
 
 .rightSide p ,.Sec4_btn {
-    font-size: 14px;
+    font-size: 16px;
 }
 .rightSide p {
-    margin: 10px 0px;
+    margin: 8px 0px;
 }
 
 /* ============================================== */
